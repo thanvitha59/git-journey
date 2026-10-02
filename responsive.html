@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Responsive Page</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            background-color: lightblue;
+        }
+
+        .box {
+            width: 500px;
+            margin: 50px auto;
+            padding: 30px;
+            background-color: white;
+            border: 2px solid black;
+        }
+
+        @media screen and (max-width: 600px) {
+
+            body {
+                background-color: lightpink;
+            }
+
+            .box {
+                width: 80%;
+            }
+
+            h1 {
+                font-size: 24px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="box">
+
+        <h1>Responsive Web Page 📱</h1>
+
+        <p>Resize your browser window.</p>
+
+        <p>The page changes when the screen becomes smaller.</p>
+
+    </div>
+
+</body>
+</html>
